@@ -1,0 +1,377 @@
+* {
+    margin: 0;
+    padding: 0;
+    // border: 0;
+    //background-image: url('/frontend/img/banner-the-jade-orchid-new.jpg');
+    
+}
+ img {
+     width: 100%;
+     object-fit: cover;
+ }
+
+// <------------share class
+ img {
+     width: 100%;
+     object-fit: cover;
+ }
+
+ .before-top {
+    width: calc(100% - 30px);
+    background: #e5e5e5;
+    height: 1px;
+    position: absolute;
+    top: 0;
+    left: 15px;
+    content: "";
+ }
+
+ .title-news-link {
+    color: inherit;
+    font-weight: bold;
+ }
+
+ .title-news-link:hover {
+    text-decoration: none;
+    color: #087cce;
+ }
+
+ .content-news-link {
+    color: inherit;
+    font-size: 14px;
+ }
+
+ .content-news-link:hover {
+     text-decoration: none;
+     color: inherit;
+ }
+
+// <------------share class
+ img {
+     width: 100%;
+     object-fit: cover;
+ }
+
+ .before-top {
+    width: calc(100% - 30px);
+    background: #e5e5e5;
+    height: 1px;
+    position: absolute;
+    top: 0;
+    left: 15px;
+    content: "";
+ }
+
+ .title-news-link {
+    color: inherit;
+    font-weight: bold;
+ }
+
+ .title-news-link:hover {
+    text-decoration: none;
+    color: #087cce;
+ }
+
+ .content-news-link {
+    color: inherit;
+    font-size: 14px;
+ }
+
+ .content-news-link:hover {
+     text-decoration: none;
+     color: inherit;
+ }
+
+
+.border-left {
+    border-left: 1px solid #E5E5E5;
+    padding-left: 15px;
+    margin-left: -15px;
+}
+
+.btn-control {
+    height: 32px;
+    line-height: 30px;
+    padding: 0 10px;
+    margin: 0 8px;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #757575;
+    display: inline-block;
+    text-decoration: none;
+}
+
+// end share class --------->
+
+.page-header {
+    background-color: #ffff;
+    .header-top {
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        padding: aut0 15px;
+        margin: 10px auto;
+        position: relative;
+        .logo-area {
+            align-self: center;
+            display: flex;
+            width: 550px;
+            .today {
+                font-size: 14px;
+                line-height: 58px;
+                margin-left: 20px;
+                padding-left: 15px;
+                opacity: 0.6;
+            }
+            // .today::before {
+            //     content: "";
+            //     width: 1px;
+            //     height: 26px;
+            //     background: #E5E5E5;
+            //     position: absolute;
+            //     left: 564px;
+            //     top: 12px;
+            // }
+        }
+        .controls-area {
+            display: flex;
+            align-self: center;
+            .btn-control {
+                height: 32px;
+                line-height: 30px;
+                padding: 0 10px;
+                margin: 0 8px;
+                border: 1px solid #e5e5e5;
+                border-radius: 3px;
+                font-size: 14px;
+                color: #757575;
+                display: inline-block;
+                text-decoration: none;
+                i {
+                    margin-right: 5px;
+                }
+            }
+            .btn-control:hover{
+                color: #4f4f4f;
+                background: #f7f7f7;
+            }
+            .btn-search {
+                display: flex;
+                height: 32px;
+                line-height: 32px;
+                border-radius: 16px;
+                border: 1px solid #e5e5e5;
+                padding: 0 30px 0 14px;
+                margin: 0 0 0 36px;
+
+                
+                button {
+                    background-color: #ffff;
+                    border: 0;
+
+                }
+                input {
+                    width: 80px;
+                    border: 0;
+                }
+                
+            }
+            
+            a {
+                padding: 0 5px;
+            }
+    
+            .login-button {
+                display: flex;
+                line-height: 32px;
+                color: #4f4f4f;
+                margin: 0 16px;
+                i {
+                    color: silver;
+                    align-self: center;
+                    
+                }
+                .user-name {
+                    margin: 0 8px;
+                    align-self: center;
+                }
+                .user-name:hover {
+                    color: blue;
+                }
+            }
+        }
+    }
+    .navigation {
+        height: 60px;
+        border-bottom: 1px solid #e5e5e5;
+        border-top: 1px solid #e5e5e5;
+        .parent {
+            margin: 0 0 0 200px;
+            display: flex;
+            list-style-type: none;
+            width: 100%;
+            float: left;
+            clear: both;
+            font-size: 14px;
+            overflow: hidden;
+            .icon-home:hover {
+                color: #b52759;
+            }
+
+            .all-selector {
+                opacity: 0.5;
+                i {
+                    margin-left: 4px;
+                }
+            }
+            .all-selector:hover {
+                color: #b52759;
+            }
+
+            li {
+                font-weight: bold;
+                margin: 0 8px;
+                white-space: nowrap;
+                padding: 16.5px 0;
+                color: inherit;
+                line-height: 24px;
+                a {
+                color: #4F4F4F;
+                font-size: 15px;
+                }
+                .nav-item:hover {
+                    color: blue;
+                    text-decoration: none;
+                }
+            }
+        }
+    }//end nav
+} //end page-header
+
+.content {
+    margin-top: 200px;
+   
+    .description {
+        .location-stamp {
+            font-size: 14px;
+            color: #757575;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+    }
+
+    .top-news-top {
+        background: #efeeee;
+        .top-new-desc {
+            margin-top: 16px;
+        }
+    }
+
+    .meta-news {
+        font-size: 14px;
+        color: #757575;
+        
+    }
+
+    .sub-hot-news {
+        margin-top: 20px;
+        .item-gocnhin {
+            border: 1px black;
+            .title {
+                color: #9f224e;
+                font-weight: bold;
+                padding-bottom: -16px;
+            }
+            .content-gocnhin {
+                margin-top: -16px;
+            }
+        }
+        
+    }
+    .author-img {
+        img {
+            border-radius:50%;
+            -moz-border-radius:50%;
+            -webkit-border-radius:50%;
+            width: 70px;
+            background: #f7f7f7;
+        }
+    }
+
+
+    .quick-news {
+        .news-item {
+            margin-top: 16px;
+        }
+
+        .img-quick-news {
+            margin: 18px 0;
+        }
+    }
+}//end content
+
+.page-footer {
+    border-top: 5px solid #E5E5E5;
+    padding: 20px 0;
+    margin-top: 15px;
+    .top-footer {
+        position: relative;
+        display: flex;
+        .list-menu-footer {
+            list-style-type: none;
+            width: 170px;;
+            .item-menu {
+                text-align: -webkit-match-parent;
+                margin-bottom: 15px;
+                a {
+                    color: inherit;
+                }
+            }
+            .boder-top{
+                border-top: 1px solid #E5E5E5;
+                padding-top: 15px;
+            }
+
+        }
+        .bold-menu-footer {
+            font-weight: bold;
+        }
+
+        .wrap-contact {
+            .download {
+                p {
+                    font-size: 14px;
+                    color: #757575;
+                }
+                
+            }
+
+            .contact {
+
+            }
+
+            .hotline {
+                .phone-number {
+
+                }
+            }
+            .sub-content-contact {
+                margin: 8px 0;
+            }
+        }
+    }
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.icon-home {
+    width: 20px;
+    height: 20px;
+}
